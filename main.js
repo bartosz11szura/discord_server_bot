@@ -11,7 +11,7 @@ const client = new Client({
 
 // Serwer HTTP do utrzymania aktywności na Render (dla darmowego tieru)
 app.get('/', (req, res) => {
-  res.send('Self-bot działa na Render! 🚀');
+  res.send('Self-bot works on Render! 🚀');
 });
 
 app.listen(PORT, () => {
@@ -25,41 +25,7 @@ client.once('ready', () => {
 
 // Reklama serwera
 const serverAd = `
-# 🚀 Witaj w Coding Zone! 🚀
-**🔥 Czy jesteś gotowy, by dołączyć do najgorętszej społeczności programistów na Discordzie? 🔥**
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-⟨👨‍💻⟩ **Coding Zone** to miejsce, gdzie pasjonaci kodowania spotykają się, by:
-  
->      ⟨💡⟩ **Dzielić się swoimi projektami** i osiągnięciami,
->  ⟨🤝⟩ **Pomagać sobie nawzajem** w rozwiązywaniu problemów,
->  ⟨🎉⟩ **Relaksować się** na kanałach for fun – nawet najlepszy kod czasem potrzebuje przerwy!
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-⟨💬⟩ **Masz pytanie?** Nasi eksperci są zawsze gotowi, by pomóc!
-⟨🎮⟩ **Chcesz odpocząć?** Zagraj z nami w gry, porozmawiaj na luźne tematy lub po prostu zrelaksuj się w towarzystwie ludzi, którzy rozumieją Twoją pasję.
-
-────────────────────────────────────────────────────────────────────────────────────
-
-# 🌟 DLACZEGO CODING ZONE? 🌟
-
->      ⟨✅⟩ **Aktywna społeczność** – zawsze ktoś jest online!
->      ⟨✅⟩ **Kanały tematyczne** – od ⟨🐍⟩ Python po ⟨🟨⟩ JavaScript, od ⟨🤖⟩ AI po ⟨🌐⟩ web dev!
->      ⟨✅⟩ **Kanały rozrywkowe** – ⟨📸⟩ memy, ⟨🎲⟩ gry, ⟨🎵⟩ muzyka i wiele więcej!
->      ⟨✅⟩ **Wydarzenia i konkursy** – bo kodowanie to nie tylko praca, ale też zabawa!
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-# 🔗 DOŁĄCZ JUŻ TERAZ! 🔗
-👉 [KLIKNIJ TUTAJ, BY DOŁĄCZYĆ!](https://discord.gg/erDFWnB5pB) 👈
-Gif: https://cdn.discordapp.com/attachments/1348199237673947167/1349117172340756530/coding_zone_gif.gif?ex=67d1eec7&is=67d09d47&hm=5c2adf45485c262dd70cfa09b2f4b6e8171b97791adb52c24e4defe9ccb8792c&
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**🎉 CZEKAMY WŁAŚNIE NA CIEBIE! 🎉**
-# 🔥 Let’s code, share, and have fun together! 🔥
 `;
 
 // Lista użytkowników partnerstwa i ich czas ostatniego partnerstwa
